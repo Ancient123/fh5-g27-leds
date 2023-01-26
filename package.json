@@ -1,6 +1,6 @@
 {
   "name": "fh5-g27-leds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Connects Forza Horizon 5 to Logitech G27 wheel LEDs",
   "main": "src/main.js",
   "scripts": {
