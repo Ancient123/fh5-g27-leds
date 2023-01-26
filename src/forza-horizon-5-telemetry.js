@@ -1,4 +1,4 @@
-const Buffer = require('node:buffer');
+const { Buffer } = require('node:buffer');
 // For reference
 // Pulled from https://github.com/bennett-sh/forza-horizon/blob/main/src/parse.ts
 //const DATATYPES = {
