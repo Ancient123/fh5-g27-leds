@@ -18,7 +18,8 @@
     "pkg": "^5.8.0"
   },
   "pkg": {
-    "targets": [ "node18-win-x64" ],
+    "targets": [ "node16-win-x64" ],
+    "assets": [ "./node_modules/node-hid/" ],
     "outputPath": "dist"
   }
 }
