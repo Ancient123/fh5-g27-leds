@@ -1,0 +1,24 @@
+{
+  "name": "fh5-g27-leds",
+  "version": "1.0.0",
+  "description": "Connects Forza Horizon 5 to Logitech G27 wheel LEDs",
+  "main": "src/main.js",
+  "scripts": {
+    "app": "node src/main.js ",
+    "build": "pkg -c package.json --public ./src/main.js",
+    "lint": "eslint src/*.js"
+  },
+  "author": "https://github.com/Ancient123",
+  "license": "MIT",
+  "dependencies": {
+    "logitech-g27": "^1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "pkg": "^5.8.0"
+  },
+  "pkg": {
+    "targets": [ "node18-win-x64" ],
+    "outputPath": "dist"
+  }
+}

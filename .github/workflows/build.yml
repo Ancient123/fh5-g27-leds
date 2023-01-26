@@ -1,0 +1,37 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - 'main'
+  pull_request:
+  workflow_dispatch:
+
+env:
+  NODE_VERSION: 18
+
+jobs:
+  build:
+    name: Build
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install Deps
+        run: npm install
+
+      - name: Linting
+        run: npm run lint
+
+      - name: Package Security Audit
+        run: npm audit
+
+      - name: Build Binary
+        run: npm run build
+
+      - name: Save Binary
+        uses: actions/upload-artifact@v3
+        with:
+          name: fh5-g27-leds
+          path: dist
