@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "eslint": "^8.35.0",
-    "pkg": "^5.8.0"
+    "pkg": "^5.8.1"
   },
   "pkg": {
     "targets": [ "node16-win-x64" ],
