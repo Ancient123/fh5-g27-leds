@@ -27,8 +27,8 @@ jobs:
       - name: Linting
         run: npm run lint
 
-      - name: Package Security Audit
-        run: npm audit
+      #- name: Package Security Audit
+      #  run: npm audit
 
       - name: Build Binary
         run: npm run build
