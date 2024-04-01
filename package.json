@@ -11,7 +11,7 @@
   "author": "https://github.com/Ancient123",
   "license": "MIT",
   "dependencies": {
-    "logitech-g27": "^1.2.2"
+    "logitech-g27": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
