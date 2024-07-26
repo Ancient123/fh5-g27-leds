@@ -14,7 +14,7 @@
     "logitech-g27": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
+    "eslint": "^9.8.0",
     "pkg": "^5.8.1"
   },
   "pkg": {
