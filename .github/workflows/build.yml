@@ -34,7 +34,7 @@ jobs:
         run: npm run build
 
       - name: Save Binary
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: fh5-g27-leds
           path: dist
